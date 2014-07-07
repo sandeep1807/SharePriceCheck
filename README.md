@@ -91,3 +91,33 @@ public class ShareServiceImpl  implements ShareService{
 	}
 
 }
+
+
+
+
+
+package com.binary;
+
+/*
+ * @author   : Sandeep Kumar
+ * @version  : 1.0
+ * @since    : 03-07-2014
+ */
+public interface ShareService {
+
+	public void readCSVFile(String fileName);
+}
+
+
+
+// text file "shareprices.txt" for share price of all company
+
+
+
+Year,Month,Company A, Company B,Company C,Company D 
+1990, Jan,	10,			15,		 50,		21 
+1990, Feb,	10,			15,		 20,		65
+1991, Jan,	50,			65,		 10,		41 
+1991, Feb,  96, 		45,		 70,	    25
+2001, Jan,  10,         45,      16,        41 
+2001, Feb,  56, 		75,		 30,	    69
